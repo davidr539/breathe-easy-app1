@@ -1,4 +1,4 @@
---Add a comment here that explains the purpose of the table and sample data being inserted
+--this table stores air quality each row represents a different observation
 CREATE TABLE observations (
     ID SERIAL PRIMARY KEY,
     SiteID INT,
