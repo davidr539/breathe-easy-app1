@@ -1,4 +1,4 @@
-//Add a comment here to explain the overall purpose of this code
+//this code snippet sets up a simple web server that gets data from a PostgreSQL database and makes it into a JSON response to the clients
 require('dotenv').config();
 const express = require('express');
 const { Pool } = require('pg');
@@ -19,7 +19,7 @@ const pool = new Pool({
 app.use(cors());
 app.use(express.static('public'));
 
-// Define a route to fetch data
+//
 app.get('/api/data', async (req, res) => {
     try {
         const result = await pool.query('SELECT * FROM observations');
