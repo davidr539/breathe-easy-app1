@@ -1,2 +1,2 @@
-# BASE AIR QUAILTY FINAL PROJECT
-This is the 2023-2024 BASE senior Data Design App development project
+# BASE AIR QUALITY FINAL PROJECT
+This application allows people to see the air quality in NYC
