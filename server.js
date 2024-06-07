@@ -1,4 +1,4 @@
-ine//this code snippet sets up a simple web server that gets data from a PostgreSQL database and makes it into a JSON response to the clients
+//this code snippet sets up a simple web server that gets data from a PostgreSQL database and makes it into a JSON response to the clients
 require('dotenv').config();
 const express = require('express');
 const { Pool } = require('pg');
